@@ -9,7 +9,11 @@ let search = async () => {
         alert("Please enter city name for searching")
     } else {
         try {
-let url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityvalue.value + "&units=metric&appid=1cb6532aea3c298a830a71380eace21e"
+            let apiKey = "1cb6532aea3c298a830a71380eace21e"; // Replace with your API key
+            let baseUrl = "https://api.openweathermap.org/data/2.5/weather";
+            let query = `?q=${cityvalue.value}&units=metric&appid=${apiKey}`;
+            let url = baseUrl + query;
+
             let response = await fetch(url)
             let result = await response.json()
             cityname.textContent = result.name
@@ -28,7 +32,7 @@ let url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityvalue.value
                 temperature.style.color='green';
             }
         } catch {
-            alert("Please enter a valid city name")
+            alert("Please enter a valid country name")
         }
     }
 }
