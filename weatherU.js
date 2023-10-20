@@ -28,7 +28,7 @@ let search = async () => {
                 temperature.style.color='green';
             }
         } catch {
-            alert("Please enter a valid country name")
+            alert("Please enter a valid city name")
         }
     }
 }
