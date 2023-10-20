@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Updates</title>
+    <link rel="stylesheet" href="weatherU.css">
+</head>
+
+<body>
+    <div class="container">
+        <img height="615" width="1317" id="img1"
+            src="https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg" alt="">
+        <div class="main-body">
+            <h1 align="center" class="logo">Weather Updates</h1>
+            <input type="text" placeholder="Enter your city name" id="search-bar">
+            <button id="btn1" onclick="search()">Search</button>
+            <div class="last-part">
+                <div class="l1">
+                    <h1 id="city-name">City Name</h1>
+                    <h3 id="country-name">Country</h3>
+                    <h1 id="properties">0 <span><sup>o</sup>C</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weatherU.js"></script>
+</body>
+
+</html>

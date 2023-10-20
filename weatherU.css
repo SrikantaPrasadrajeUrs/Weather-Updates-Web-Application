@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lobster&family=Pixelify+Sans:wght@400;500&family=Poppins:wght@200;300;400;500&family=Rajdhani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    margin-top: -490px;
+    margin-left: 450px;
+    background-color: grey;
+    padding: 15px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+#img1 {
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: 'Lobster';
+    font-size: 28px;
+}
+
+.last-part {
+    background-color: blue;
+    justify-content: center;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.l1 {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-bar {
+    margin-top: 10px;
+    width: 290px;
+    border: 1px solid grey;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 4px;
+    padding: 0 0 0 10px;
+    outline: none;
+}
+
+#btn1 {
+    height: 30px;
+    border-radius: 0 4px 4px 0px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    background-color: rgb(29, 240, 29);
+    margin-left: -10px;
+    transition: 1s;
+}
+
+#btn1:active {
+    background-color: rgb(29, 129, 20);
+}
+
+#city-name {
+    transform: translateY(15px);
+    font-size: 35px;
+}
+
+.last-part h3 {
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+
+#properties {
+    color: aquamarine;
+}
