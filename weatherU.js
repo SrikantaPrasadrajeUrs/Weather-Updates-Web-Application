@@ -9,7 +9,7 @@ let search = async () => {
         alert("Please enter city name for searching")
     } else {
         try {
-            let url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityvalue.value + "&units=metric&appid=1cb6532aea3c298a830a71380eace21e"
+let url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityvalue.value + "&units=metric&appid=1cb6532aea3c298a830a71380eace21e"
             let response = await fetch(url)
             let result = await response.json()
             cityname.textContent = result.name
